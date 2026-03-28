@@ -1,0 +1,296 @@
+{
+  "services": [
+    {
+      "name": "Shrink Wrapping Services",
+      "slug": "shrink-wrapping-services",
+      "icon": "mdi:package-variant-closed",
+      "description": "Professional-grade shrink wrapping for heavy machinery, vehicles, and industrial cargo",
+      "subServices": [
+        {
+          "name": "Close Cargo Shrink Packing",
+          "slug": "close-cargo-shrink-packing",
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop",
+          "description": "Our Close Cargo Shrink Packing service uses premium 300GSM LD shrink tape to create a tightly sealed, puncture-resistant barrier around goods loaded in closed containers. This method ensures complete weather protection, dust prevention, and tamper-evidence for your valuable cargo during national and international transit.",
+          "points": [
+            "300GSM Heavy-Duty LD Shrink Tape",
+            "Full container load coverage",
+            "Weather & moisture resistant seal",
+            "Tamper-evident packaging",
+            "Suitable for machinery & equipment",
+            "On-site professional service"
+          ]
+        },
+        {
+          "name": "Open Cargo Shrink Wrapping",
+          "slug": "open-cargo-shrink-wrapping",
+          "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=800&auto=format&fit=crop",
+          "description": "Open Cargo Shrink Wrapping is designed for oversized machinery, vehicles, and equipment that cannot fit within standard containers. Our trained professionals apply industrial heat-shrink film directly on open flatbed trailers and cargo decks, creating a durable, UV-resistant protective layer.",
+          "points": [
+            "Ideal for oversized & heavy equipment",
+            "UV and weather-resistant film",
+            "On-site wrapping at your facility",
+            "Custom-fit shrink profiles",
+            "Protection during sea & road transit",
+            "Cost-effective alternative to crating"
+          ]
+        },
+        {
+          "name": "Pallet Shrink Wrapping",
+          "slug": "pallet-shrink-wrapping",
+          "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=800&auto=format&fit=crop",
+          "description": "Pallet Shrink Wrapping secures palletized loads with heat-applied shrink film, ensuring load stability and protection. This method is ideal for bulk shipments and warehouse storage, preventing shifting, moisture damage, and contamination of stacked goods.",
+          "points": [
+            "Full pallet load stabilization",
+            "Prevents load shifting in transit",
+            "Moisture & dust proof barrier",
+            "Compatible with all pallet types",
+            "Bulk order packaging support",
+            "Ideal for warehouse storage"
+          ]
+        },
+        {
+          "name": "Export Packing Covers",
+          "slug": "export-packing-covers",
+          "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop",
+          "description": "Export Packing Covers are custom-designed shrink covers built specifically to meet international shipping standards. These covers provide a complete hermetic seal around your goods, protecting against saltwater corrosion, humidity, and impact during long-distance ocean and air freight.",
+          "points": [
+            "ISPM-15 compliant solutions",
+            "Corrosion inhibitor options available",
+            "Hermetically sealed covers",
+            "Suitable for ocean & air freight",
+            "Custom sizes for any cargo",
+            "Weatherproof for extended storage"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wooden Packaging Solutions",
+      "slug": "wooden-packaging-solutions",
+      "icon": "mdi:pine-tree-box",
+      "description": "Custom-built wooden pallets, crates, and boxes for secure industrial packaging",
+      "subServices": [
+        {
+          "name": "Wooden Pallets",
+          "slug": "wooden-pallets",
+          "image": "https://images.unsplash.com/photo-1611117775350-ac3950990b70?q=80&w=800&auto=format&fit=crop",
+          "description": "We manufacture high-strength Wooden Pallets from seasoned pine and jungle wood, engineered to handle heavy industrial loads. Our pallets are custom-built to your exact specifications, ensuring perfect fit for your products and compatibility with standard forklift operations.",
+          "points": [
+            "Pine Wood & Jungle Wood options",
+            "Custom sizes & load capacities",
+            "Heat-treated (ISPM-15 compliant)",
+            "Two-way & four-way entry designs",
+            "Suitable for export shipments",
+            "Bulk manufacturing capability"
+          ]
+        },
+        {
+          "name": "Plywood Boxes & Crates",
+          "slug": "plywood-boxes-crates",
+          "image": "https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?q=80&w=800&auto=format&fit=crop",
+          "description": "Our Plywood Boxes and Crates provide superior protection for fragile, high-value, and heavy equipment during transit. Built from commercial-grade plywood with reinforced joints, these boxes are the industry standard for secure packaging of precision instruments and sensitive machinery.",
+          "points": [
+            "Commercial-grade plywood construction",
+            "Reinforced corner & edge joints",
+            "Custom foam inserts available",
+            "Nailable & screwable designs",
+            "Reusable & recyclable",
+            "Ideal for heavy machinery"
+          ]
+        },
+        {
+          "name": "Pine Wood Planks",
+          "slug": "pine-wood-planks",
+          "image": "https://images.unsplash.com/photo-1520869562946-8e6f73fca829?q=80&w=800&auto=format&fit=crop",
+          "description": "High-quality Pine Wood Planks sourced and processed for industrial packaging applications. Our planks are kiln-dried and moisture-treated to prevent warping and ensure dimensional stability, making them perfect for building custom crating, dunnage, and blocking solutions.",
+          "points": [
+            "Kiln-dried for stability",
+            "Multiple thickness options",
+            "Smooth planed finish",
+            "Low moisture content",
+            "Ideal for dunnage & blocking",
+            "Competitive bulk pricing"
+          ]
+        },
+        {
+          "name": "Jungle Wood Packaging",
+          "slug": "jungle-wood-packaging",
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=800&auto=format&fit=crop",
+          "description": "Jungle Wood Packaging utilizes dense, hardwood timber for ultra-heavy-duty applications. Perfect for oversized industrial machinery, generators, and transformer packaging, jungle wood offers exceptional load-bearing capacity and impact resistance that softer woods cannot match.",
+          "points": [
+            "High-density hardwood timber",
+            "Superior load-bearing capacity",
+            "Impact & vibration resistant",
+            "Custom-engineered crates",
+            "For ultra-heavy cargo (5+ ton)",
+            "Long-term storage durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corrugated Packaging",
+      "slug": "corrugated-packaging",
+      "icon": "mdi:package-variant",
+      "description": "Durable corrugated boxes and cartons for safe storage and transit of goods",
+      "subServices": [
+        {
+          "name": "Corrugated Boxes",
+          "slug": "corrugated-boxes",
+          "image": "https://images.unsplash.com/photo-1607166452427-7e4477c3a3d0?q=80&w=800&auto=format&fit=crop",
+          "description": "Our Brown Corrugated Packaging Boxes are manufactured from high-quality fluted board with superior crush resistance. Available in single-wall, double-wall, and triple-wall configurations, these boxes are the versatile backbone of any packaging operation.",
+          "points": [
+            "3-ply, 5-ply & 7-ply options",
+            "Custom die-cut shapes",
+            "High burst & crush strength",
+            "Printable for branding",
+            "Eco-friendly & recyclable",
+            "MOQ as low as 100 pieces"
+          ]
+        },
+        {
+          "name": "Heavy Duty Cartons",
+          "slug": "heavy-duty-cartons",
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=800&auto=format&fit=crop",
+          "description": "Heavy Duty Cartons are engineered for industrial components and parts that require extra protection. With reinforced walls and superior stacking strength, they are designed to withstand the rigours of warehouse stacking and long-distance transportation.",
+          "points": [
+            "Double & triple wall construction",
+            "High stacking strength",
+            "Water-resistant coatings available",
+            "Custom internal partitions",
+            "Suitable for auto parts & hardware",
+            "Palletization-friendly dimensions"
+          ]
+        },
+        {
+          "name": "Custom Die-Cut Packaging",
+          "slug": "custom-die-cut-packaging",
+          "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop",
+          "description": "Custom Die-Cut Packaging is precision-engineered to perfectly fit your product dimensions. Using advanced die-cutting technology, we create boxes with custom flaps, inserts, and locking tabs that eliminate the need for additional void-fill materials.",
+          "points": [
+            "Precision die-cut to spec",
+            "Self-locking tab designs",
+            "Eliminates void-fill waste",
+            "Ideal for retail-ready products",
+            "Full-color printing options",
+            "Fast prototyping available"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strapping & Securing",
+      "slug": "strapping-securing",
+      "icon": "mdi:link-variant",
+      "description": "Industrial strapping and load-securing solutions for safe cargo transit",
+      "subServices": [
+        {
+          "name": "Cord Strap Solutions",
+          "slug": "cord-strap-solutions",
+          "image": "https://images.unsplash.com/photo-1616431101491-554c0932ea40?q=80&w=800&auto=format&fit=crop",
+          "description": "Our Polyester Cord Straps provide a safe, lightweight, and cost-effective alternative to steel strapping. With high tensile strength and excellent shock absorption, cord straps are ideal for heavy-duty bundling and securing palletized loads.",
+          "points": [
+            "19mm & 25mm width options",
+            "High tensile strength (500+ kg)",
+            "Excellent shock absorption",
+            "Safe to handle — no sharp edges",
+            "Corrosion-free material",
+            "Wire buckle fastening system"
+          ]
+        },
+        {
+          "name": "PP & PET Strapping",
+          "slug": "pp-pet-strapping",
+          "image": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?q=80&w=800&auto=format&fit=crop",
+          "description": "Polypropylene (PP) and Polyester (PET) Strapping Rolls are essential for securing cartons, boxes, and bundled goods. We supply high-quality strapping in multiple widths and colours, compatible with both manual and automated strapping machines.",
+          "points": [
+            "PP: Lightweight & economical",
+            "PET: High strength & recovery",
+            "Multiple widths: 9mm to 19mm",
+            "Manual & machine-grade rolls",
+            "Embossed for better grip",
+            "Colour coding options"
+          ]
+        },
+        {
+          "name": "Strapping Tools & Buckles",
+          "slug": "strapping-tools-buckles",
+          "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
+          "description": "Complete your strapping system with our range of industrial tensioners, sealers, and buckles. We supply both manual and pneumatic strapping tools from trusted brands, along with GI wire buckles and seals for secure load closure.",
+          "points": [
+            "Manual tensioners & sealers",
+            "Pneumatic tool options",
+            "GI wire buckles & seals",
+            "Compatible with cord & PET strap",
+            "Ergonomic grip designs",
+            "Bulk supply for factories"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protective Packaging",
+      "slug": "protective-packaging",
+      "icon": "mdi:shield-check",
+      "description": "EPE foam, stretch film, tarpaulin, and cushioning materials for product safety",
+      "subServices": [
+        {
+          "name": "EPE Foam Rolls & Sheets",
+          "slug": "epe-foam-rolls-sheets",
+          "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=80&w=800&auto=format&fit=crop",
+          "description": "Expanded Polyethylene (EPE) Foam Rolls and Sheets provide excellent cushioning and shock absorption for delicate items. Lightweight yet resilient, EPE foam is widely used for wrapping electronics, glassware, automotive parts, and medical devices.",
+          "points": [
+            "Multiple thickness: 1mm to 10mm",
+            "Excellent shock absorption",
+            "Chemical & moisture resistant",
+            "Lightweight & flexible",
+            "Custom die-cut shapes available",
+            "Anti-static options for electronics"
+          ]
+        },
+        {
+          "name": "Stretch Film Rolls",
+          "slug": "stretch-film-rolls",
+          "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=800&auto=format&fit=crop",
+          "description": "Our 300mm Stretch Film Rolls are designed for pallet wrapping and load stabilization. The high-cling, high-stretch LLDPE film conforms tightly around irregular shapes, keeping goods secure without adhesive and providing a transparent view of contents.",
+          "points": [
+            "300mm & 450mm width options",
+            "High stretch ratio (200%+)",
+            "Strong cling — no adhesive needed",
+            "Clear & tinted options",
+            "Manual & machine rolls",
+            "Ideal for pallet unitizing"
+          ]
+        },
+        {
+          "name": "Plastic Tarpaulin Covers",
+          "slug": "plastic-tarpaulin-covers",
+          "image": "https://images.unsplash.com/photo-1622905810727-9cc1da461fb2?q=80&w=800&auto=format&fit=crop",
+          "description": "Heavy-duty HDPE Woven Tarpaulin Covers protect goods from rain, sun, and dust during storage and open transit. Our tarpaulins are reinforced with eyelet holes for easy securing and are available in multiple sizes and GSM ratings.",
+          "points": [
+            "HDPE woven construction",
+            "UV stabilized for outdoor use",
+            "Waterproof & dustproof",
+            "Reinforced eyelet holes",
+            "Multiple GSM ratings",
+            "Custom cut sizes available"
+          ]
+        },
+        {
+          "name": "VCI Rust Prevention",
+          "slug": "vci-rust-prevention",
+          "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
+          "description": "VCI (Volatile Corrosion Inhibitor) packaging products protect metal parts and machinery from rust and corrosion during storage and shipping. Our VCI bags, films, and papers release invisible molecules that form a protective layer on metal surfaces.",
+          "points": [
+            "VCI poly bags & films",
+            "VCI treated papers",
+            "Protects ferrous & non-ferrous metals",
+            "No surface preparation needed",
+            "Multi-metal protection formulas",
+            "Ideal for export shipments"
+          ]
+        }
+      ]
+    }
+  ]
+}
