@@ -34,17 +34,17 @@
             },
             {
               "name": "Pallet Shrink Wrapping",
-              "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=800&auto=format&fit=crop",
+              "image": "images/Shrink-Wrapping--Pallet-Shrink-Wrapping.png",
               "description": "Complete pallet-level shrink wrapping service ensuring load stability and weather protection for palletized shipments."
             },
             {
               "name": "Export Packing Covers",
-              "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop",
+              "image": "images/Shrink-Wrapping--Export-Packing-Covers.png",
               "description": "ISPM-15 compliant shrink covers built to meet international shipping standards for ocean and air freight."
             },
             {
               "name": "Weatherproof Covers",
-              "image": "https://images.unsplash.com/photo-1622905810727-9cc1da461fb2?q=80&w=800&auto=format&fit=crop",
+              "image": "images/Shrink-Wrapping--Weatherproof-Covers.png",
               "description": "All-weather shrink film covers providing moisture, dust, and UV protection for long-term outdoor storage."
             }
           ]
