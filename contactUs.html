@@ -281,6 +281,52 @@
         AOS.init({ once: true, duration: 800, offset: 50 });
     </script>
 
+    <script>
+        // WhatsApp Form Submission
+        (function () {
+            const WHATSAPP_NUMBER = '919726045883'; // India country code + number
+
+            const form = document.getElementById('whatsappForm');
+            if (!form) return;
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                // Bootstrap validation
+                if (!form.checkValidity()) {
+                    form.classList.add('was-validated');
+                    return;
+                }
+
+                // Collect field values
+                const name = document.getElementById('name').value.trim();
+                const phone = document.getElementById('phone').value.trim();
+                const service = document.getElementById('serviceType').value;
+                const message = document.getElementById('messageDetails').value.trim();
+
+                // Build a well-formatted WhatsApp message
+                const waMessage =
+                    `📦 *New Enquiry from HK Engimech Website*\n` +
+                    `━━━━━━━━━━━━━━━━━━━━\n` +
+                    `👤 *Name:* ${name}\n` +
+                    `📞 *Phone:* ${phone}\n` +
+                    `🏭 *Interested In:* ${service}\n` +
+                    `━━━━━━━━━━━━━━━━━━━━\n` +
+                    `📝 *Requirements:*\n${message}\n` +
+                    `━━━━━━━━━━━━━━━━━━━━`;
+
+                // Open WhatsApp with pre-filled message
+                const waURL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waMessage)}`;
+                window.open(waURL, '_blank');
+
+                // Reset form after sending
+                form.reset();
+                form.classList.remove('was-validated');
+            });
+        })();
+    </script>
+
     <script defer src="js/script.js"></script>
 </body>
 </html>
