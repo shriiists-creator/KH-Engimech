@@ -787,6 +787,70 @@ address{
           margin-right: auto;
         }
 
+        /* Product Slider Controls */
+        .product-slider-wrapper {
+            padding: 0 64px;
+        }
+        .product-slider-wrapper .swiper-nav-btn {
+            position: absolute;
+            top: calc(50% - 24px);
+            transform: translateY(-50%);
+            width: 48px;
+            height: 48px;
+            background-color: var(--primary);
+            color: var(--white);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(139, 115, 85, 0.3);
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+        .product-slider-wrapper .product-swiper-button-prev {
+            left: 0;
+        }
+        .product-slider-wrapper .product-swiper-button-next {
+            right: 0;
+        }
+        .product-slider-wrapper .swiper-nav-btn:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-50%) scale(1.05);
+            box-shadow: 0 6px 16px rgba(139, 115, 85, 0.5);
+            color: var(--white);
+        }
+        .product-slider-wrapper .swiper-nav-btn .iconify {
+            font-size: 24px;
+        }
+        
+        @media (max-width: 767px) {
+            .product-slider-wrapper {
+                padding: 0;
+                padding-bottom: 70px;
+            }
+            .product-slider-wrapper .swiper-nav-btn {
+                top: auto;
+                bottom: 0px;
+                transform: none;
+                width: 44px;
+                height: 44px;
+            }
+            .product-slider-wrapper .product-swiper-button-prev {
+                left: calc(50% - 52px);
+            }
+            .product-slider-wrapper .product-swiper-button-next {
+                right: auto;
+                left: calc(50% + 8px);
+            }
+            .product-slider-wrapper .swiper-nav-btn:hover {
+                transform: scale(1.05);
+            }
+            .product-slider-wrapper .swiper-nav-btn .iconify {
+                font-size: 22px;
+            }
+        }
+
         /* Testimonials */
         .testimonial-card {
             background: var(--white);

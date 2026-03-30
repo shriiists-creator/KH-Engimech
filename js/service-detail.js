@@ -9,7 +9,7 @@
   'use strict';
 
   const DATA_PATH = 'data/services-data.json';
-  const WHATSAPP_NUMBER = '918044919276';
+  const WHATSAPP_NUMBER = '919099828992';
 
   // ── Get URL params ───────────────────────────
   function getParam(key) {

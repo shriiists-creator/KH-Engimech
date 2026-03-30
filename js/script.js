@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Load Header and Footer
 function loadHeaderFooter(callback) {
-         
+
   document.getElementById("footer").innerHTML = `<div class="container">
         <div class="footWrap defaultPadding">
           <div class="row">
@@ -67,22 +67,20 @@ function loadHeaderFooter(callback) {
                     <span class="iconify" data-icon="fluent:location-12-filled"></span>
                     <A1-TF-25>
 <pre class="mb-0">
-C/107, Natasha Park-2,
-Nizampura, Chhani Rd, Vadodara
-390002, Gujarat</pre>
+FF/3 , J Tower, Aashray Residency, Oop. - Din dayal Upadhyay School, TP-13, Chhani Jakatnaka</pre>
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+918044919276" class="footerLinks">
-                    <span class="iconify" data-icon="ic:sharp-phone"></span> +91 804 491 9276</a>
+                  <a href="tel:+919099828992" class="footerLinks">
+                    <span class="iconify" data-icon="ic:sharp-phone"></span> +91 90998 28992</a>
                 </li>
                 <!-- <li>
                   <a href="tel:" class="footerLinks">
                     <i class="fa-solid fa-phone"></i>+91 </a>
                 </li> -->
                 <li>
-                  <a class="emailAnchor footerLinks" href="mailto:your@email.com">
-                    <span class="iconify" data-icon="material-symbols-light:mail-rounded"></span> your@email.com</a>
+                  <a class="emailAnchor footerLinks" href="mailto:hains@hkengimech.com">
+                    <span class="iconify" data-icon="material-symbols-light:mail-rounded"></span> hains@hkengimech.com</a>
                 </li>
               </ul>
               <div class="social-icons mt-3">
@@ -92,7 +90,7 @@ Nizampura, Chhani Rd, Vadodara
                 <a target="_blank" class="instagram" href="https://www.instagram.com/">
                   <span class="iconify" data-icon="dashicons:instagram"></span>
                 </a>
-                <a class="whatsapp set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=918044919276">
+                <a class="whatsapp set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=919099828992">
                   <span class="iconify" data-icon="ic:twotone-whatsapp"></span>
                 </a>
               </div>
@@ -118,8 +116,8 @@ Nizampura, Chhani Rd, Vadodara
         </div>
       </div>`; // Keep your current footer HTML here
 
-     document.getElementById("mainFabContainer").innerHTML = `<div class="fab-container">
-      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=918044919276">
+  document.getElementById("mainFabContainer").innerHTML = `<div class="fab-container">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=919099828992">
         <svg xmlns="http://www.w3.org/2000/svg" width="59.54px" height="60px" viewBox="0 0 256 258">
           <defs>
             <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
@@ -139,7 +137,7 @@ Nizampura, Chhani Rd, Vadodara
     </div>
     <!-- Call FAB icon -->
     <div class="Call-fab-container">
-      <a rel="noopener" target="_blank" href="tel:+918044919276">
+      <a rel="noopener" target="_blank" href="tel:+919099828992">
         <img style="height: 60px; width: 60px" src="images/phone-call.png" alt="phone icon" />
       </a>
     </div>`;
@@ -209,8 +207,8 @@ function initMobileNavToggle() {
 
 // WhatsApp URL Adjuster (Device-based Detection)
 (function () {
-  const mobileLink = "https://api.whatsapp.com/send?phone=918044919276";
-  const desktopLink = "https://web.whatsapp.com/send?phone=918044919276";
+  const mobileLink = "https://api.whatsapp.com/send?phone=919099828992";
+  const desktopLink = "https://web.whatsapp.com/send?phone=919099828992";
 
   function isMobileDevice() {
     return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -239,7 +237,7 @@ function initMobileNavToggle() {
   async function initMegaMenu() {
     const gridEl = document.getElementById('megaMenuGrid');
     const mobileEl = document.getElementById('megaMenuMobile');
-    
+
     // If no mega menu elements exist on this page, skip
     if (!gridEl && !mobileEl) return;
 
