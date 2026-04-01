@@ -209,8 +209,8 @@ function initMobileNavToggle() {
 
 // WhatsApp URL Adjuster (Device-based Detection)
 (function () {
-  const mobileLink = "https://api.whatsapp.com/send?phone=919099828992";
-  const desktopLink = "https://web.whatsapp.com/send?phone=919099828992";
+  const WHATSAPP_NUMBER = "919099828992";
+  const DEFAULT_TEXT = "Hi HK Engimech, I would like to inquire about your services.";
 
   function isMobileDevice() {
     return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -218,15 +218,45 @@ function initMobileNavToggle() {
 
   function updateWhatsAppLink() {
     const isMobile = isMobileDevice();
-    const targetLink = isMobile ? mobileLink : desktopLink;
+    const baseUrl = isMobile ? "https://api.whatsapp.com/send" : "https://web.whatsapp.com/send";
 
-    document.querySelectorAll(".set-url-target").forEach(el => {
-      el.setAttribute("href", targetLink);
+    document.querySelectorAll(".set-url-target").forEach((el, index) => {
+      // Add ID to every whatsapp message/button if not already present
+      if (!el.id) {
+        el.id = "whatsapp-btn-" + index;
+      }
+
+      let currentHref = el.getAttribute("href");
+      if (!currentHref || !currentHref.includes("whatsapp.com")) return;
+
+      try {
+        const urlObj = new URL(currentHref);
+        const params = new URLSearchParams(urlObj.search);
+        
+        // Ensure phone is set
+        if (!params.has("phone")) {
+          params.set("phone", WHATSAPP_NUMBER);
+        }
+
+        // Add default text if none exists
+        if (!params.has("text") || params.get("text").trim() === "") {
+          params.set("text", DEFAULT_TEXT);
+        }
+
+        // Update link with correct base URL and preserved/default params
+        el.setAttribute("href", `${baseUrl}?${params.toString()}`);
+      } catch (e) {
+        console.error("Error updating WhatsApp link:", e);
+      }
     });
   }
 
+  // Run on load and resize
   window.addEventListener("resize", updateWhatsAppLink);
   window.addEventListener("load", updateWhatsAppLink);
+  
+  // Also run immediately
+  updateWhatsAppLink();
 })();
 
 
