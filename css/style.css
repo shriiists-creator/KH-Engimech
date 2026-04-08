@@ -9,7 +9,7 @@
             --dark-card: #25262A;
             --light: #F4F5F7;
             --white: #FFFFFF;
-            --nav-height: 112.48px;
+            --nav-height: 159.95px;
         }
         section{
           overflow: hidden;
@@ -142,13 +142,13 @@
   margin-right: 4px;
   font-size: 20px;
 }
-.topheadSocial a{
+.topheadSocial a,.brandLogo{
   display: inline-block;
   color: var(--primary);
   margin-left: 8px;
   transition: color 0.3s ease-in-out;
 }
-.topheadLinks a:hover,.topheadSocial a:hover{
+.topheadLinks a:hover,.topheadSocial a:hover,.brandLogo:hover{
   color: var(--secondary-color);
 }
 .navMenu {
@@ -187,13 +187,19 @@
 
 .brandLogo{
   display: inline-block;
-  width: auto;
-  height: 50px;
+  width: 132.50px;
   margin-left: 0 !important;
 }
-.brandLogo img{
-  width: auto;
-  height: 100%;
+.wrapLogoTxt{
+  display: inline-block;
+  width: 100%;
+  container-type: inline-size;
+}
+
+.wrapLogoTxt span{
+  display: inline-block;
+  width: 100%;
+  font-size: 9cqw;
 }
 
 .topheadContacts{
@@ -1472,6 +1478,10 @@ address{
             line-height: 1.65;
             margin-bottom: 16px;
             flex-grow: 1;
+        }
+
+        .heighlightStrenth svg{
+          flex: 0 0 auto;
         }
 
         /* ── Enquiry Now Button ── */

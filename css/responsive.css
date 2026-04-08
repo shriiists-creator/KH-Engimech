@@ -1,16 +1,3 @@
-:root {
-            /* Brand Colors based on HK Engimech Logo */
-            --primary: #8B7355;       /* Earthy Brown / Bronze */
-            --primary-dark: #6B5840;
-            --secondary: #A9A9A9; /* Gear Grey */
-            --lightMain:#f7efe6;     
-            --dark: #1A1A1D;          /* Deep Industrial Dark */
-            --dark-card: #25262A;
-            --light: #F4F5F7;
-            --white: #FFFFFF;
-            --nav-height: 112.48px;
-        }
-
 @media (max-width: 1199.98px) {
 
 
@@ -41,7 +28,7 @@
   }
 
 :root {
-    --nav-height: 67px;
+    --nav-height: 103.69px;
 }
 /* Image Mask for About Section */
 .about-image-wrapper img{

@@ -9,7 +9,7 @@
   'use strict';
 
   const DATA_PATH = 'data/services-data.json';
-  const WHATSAPP_NUMBER = '919099828992';
+  const WHATSAPP_NUMBER = '917984899514';
 
   // ── WhatsApp Responsive Logic & Debounce ───────
   function debounce(func, wait) {

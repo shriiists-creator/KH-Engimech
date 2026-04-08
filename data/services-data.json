@@ -7,34 +7,34 @@
         {
           "name": "Shrink Wrapping",
           "slug": "shrink-wrapping",
-          "image": "https://img.freepik.com/free-photo/service-worker-painting-car-auto-service_23-2149486983.jpg?t=st=1774595717~exp=1774599317~hmac=9b1f215358ce8d54b2758814af9501560774140109f5d9f2510ef10ae5fa83d2&w=1480",
+          "image": "images/industrialshrinkwrapping.webp",
           "description": "Industrial shrink wrapping solutions for machinery, pallets, and export cargo ensuring complete protection from moisture, dust, and environmental damage. Our heat-applied shrink films create a tight, tamper-evident barrier around goods of all sizes.",
           "subcategories": [
             {
               "name": "Heat Shrink Packaging",
-              "image": "images/Shrink-Wrapping--Heat-Shrink-Packaging.webp",
+              "image": "images/HeatShrinkPackaging.webp",
               "description": "High-temperature polyolefin shrink film packaging for secure, tamper-proof industrial wrapping of components and machinery."
             },
             {
               "name": "UV Protected Shrink",
-              "image": "images/Shrink-Wrapping--UV-Protected-Shrink.webp",
+              "image": "images/UV_ProtectedShrink.webp",
               "description": "UV-stabilized shrink wrapping designed for outdoor storage and long-distance open cargo transit under direct sunlight."
             },
             {
               "name": "Heavy Duty Shrink Covers",
-              "image": "images/Shrink-Wrapping--Heavy-Duty-Shrink-Covers.webp",
+              "image": "images/HeavyDutyShrinkCovers.webp",
               "description": "Extra-thick 300GSM shrink covers engineered for oversized machinery, transformers, and heavy industrial equipment."
             }
           ],
           "endProducts": [
             {
-              "name": "Machine Shrink Covers",
-              "image": "images/Shrink-Wrapping--Machine-Shrink-Covers.webp",
+              "name": "Machine Transperant Shrink Cover",
+              "image": "images/MachineTransperantShrinkCover.webp",
               "description": "Custom-fit heat shrink covers tailored to protect CNC machines, generators, and factory equipment during storage and transit."
             },
             {
               "name": "Pallet Shrink Wrapping",
-              "image": "images/Shrink-Wrapping--Pallet-Shrink-Wrapping.webp",
+              "image": "images/PalletShrinkWrapping.webp",
               "description": "Complete pallet-level shrink wrapping service ensuring load stability and weather protection for palletized shipments."
             },
             {

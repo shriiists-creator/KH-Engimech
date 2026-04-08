@@ -73,16 +73,16 @@ TP-13, Chhani Jakatnaka</pre>
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+919099828992" class="footerLinks">
-                    <span class="iconify" data-icon="ic:sharp-phone"></span> +91 90998 28992</a>
+                  <a href="tel:+917984899514" class="footerLinks">
+                    <span class="iconify" data-icon="ic:sharp-phone"></span> +91 79848 99514</a>
                 </li>
                 <!-- <li>
                   <a href="tel:" class="footerLinks">
                     <i class="fa-solid fa-phone"></i>+91 </a>
                 </li> -->
                 <li>
-                  <a class="emailAnchor footerLinks" href="mailto:hains@hkengimech.com">
-                    <span class="iconify" data-icon="material-symbols-light:mail-rounded"></span> hains@hkengimech.com</a>
+                  <a class="emailAnchor footerLinks" href="mailto:sales@hkengimech.com">
+                    <span class="iconify" data-icon="material-symbols-light:mail-rounded"></span> sales@hkengimech.com</a>
                 </li>
               </ul>
               <div class="social-icons mt-3">
@@ -92,7 +92,7 @@ TP-13, Chhani Jakatnaka</pre>
                 <a target="_blank" class="instagram" href="https://www.instagram.com/">
                   <span class="iconify" data-icon="dashicons:instagram"></span>
                 </a>
-                <a class="whatsapp set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=919099828992">
+                <a class="whatsapp set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=917984899514">
                   <span class="iconify" data-icon="ic:twotone-whatsapp"></span>
                 </a>
               </div>
@@ -119,7 +119,7 @@ TP-13, Chhani Jakatnaka</pre>
       </div>`; // Keep your current footer HTML here
 
   document.getElementById("mainFabContainer").innerHTML = `<div class="fab-container">
-      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=919099828992">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=917984899514">
         <svg xmlns="http://www.w3.org/2000/svg" width="59.54px" height="60px" viewBox="0 0 256 258">
           <defs>
             <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
@@ -139,7 +139,7 @@ TP-13, Chhani Jakatnaka</pre>
     </div>
     <!-- Call FAB icon -->
     <div class="Call-fab-container">
-      <a rel="noopener" target="_blank" href="tel:+919099828992">
+      <a rel="noopener" target="_blank" href="tel:+917984899514">
         <img style="height: 60px; width: 60px" src="images/phone-call.png" alt="phone icon" />
       </a>
     </div>`;
@@ -209,7 +209,7 @@ function initMobileNavToggle() {
 
 // WhatsApp URL Adjuster (Device-based Detection)
 (function () {
-  const WHATSAPP_NUMBER = "919099828992";
+  const WHATSAPP_NUMBER = "917984899514";
   const DEFAULT_TEXT = "Hi HK Engimech, I would like to inquire about your services.";
 
   function isMobileDevice() {
