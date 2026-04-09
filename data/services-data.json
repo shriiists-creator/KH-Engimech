@@ -233,41 +233,7 @@
           "name": "Container Lashing",
           "slug": "container-lashing",
           "image": "images/ContainerLashing.webp",
-          "description": "Container lashing services ensure secure fastening of cargo inside containers for safe transportation. Using straps, chains, and tensioning systems, cargo is stabilized to prevent movement, damage, or accidents during transit via road, rail, or sea.",
-          "subcategories": [
-            {
-              "name": "Polyester Web Lashing",
-              "image": "https://images.unsplash.com/photo-1601582585289-2f63c5b76c9a?q=80&w=800&auto=format&fit=crop",
-              "description": "High-strength polyester straps used for securing cargo with flexibility and shock absorption. Ideal for lightweight to medium-weight goods and widely used for export packaging."
-            },
-            {
-              "name": "Ratchet Lashing Systems",
-              "image": "https://images.unsplash.com/photo-1600267165464-1a8a4b53d1df?q=80&w=800&auto=format&fit=crop",
-              "description": "Adjustable ratchet-based lashing systems that provide precise tension control for securing heavy cargo. Ensures tight fastening and easy handling during loading and unloading."
-            },
-            {
-              "name": "Chain & Wire Rope Lashing",
-              "image": "https://images.unsplash.com/photo-1581091870627-3d2d7a63e0d5?q=80&w=800&auto=format&fit=crop",
-              "description": "Heavy-duty lashing using metal chains or wire ropes for extremely heavy and rigid cargo such as machinery, steel coils, and industrial equipment."
-            },
-            {
-              "name": "Cord Strap Lashing",
-              "image": "https://images.unsplash.com/photo-1621905252472-e8c5c9e1c4c7?q=80&w=800&auto=format&fit=crop",
-              "description": "Composite cord straps made from polyester fibers with high tensile strength, offering a safer alternative to steel strapping for securing large cargo loads."
-            }
-          ],
-          "endProducts": [
-            {
-              "name": "Export Cargo Securing",
-              "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop",
-              "description": "Professional lashing solutions for export shipments ensuring cargo stability inside containers during international transit."
-            },
-            {
-              "name": "Heavy Machinery Lashing",
-              "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=800&auto=format&fit=crop",
-              "description": "Specialized lashing techniques for securing industrial machines, generators, and large equipment to prevent shifting and damage."
-            }
-          ]
+          "description": "Container lashing services ensure secure fastening of cargo inside containers for safe transportation. Using straps, chains, and tensioning systems, cargo is stabilized to prevent movement, damage, or accidents during transit via road, rail, or sea."
         }
       ]
     },
