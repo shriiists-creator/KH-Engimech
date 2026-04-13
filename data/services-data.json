@@ -172,17 +172,17 @@
           "subcategories": [
             {
               "name": "Barrier Vacuum Bags",
-              "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=80&w=800&auto=format&fit=crop",
+              "image": "images/UV_ProtectedShrink.webp",
               "description": "Multi-layer barrier vacuum bags with aluminum foil lamination for maximum oxygen and moisture exclusion."
             },
             {
               "name": "Aluminum Foil Vacuum Packaging",
-              "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
+              "image": "images/AluminumFoilVacuumPackaging.webp",
               "description": "Heavy-duty aluminum foil vacuum packaging for sensitive electronics, precision instruments, and metal components."
             },
             {
               "name": "VCI Films",
-              "image": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?q=80&w=800&auto=format&fit=crop",
+              "image": "images/VCI_Film.webp",
               "description": "VCI polyethylene films releasing corrosion-inhibiting vapors for wrapping ferrous and non-ferrous metal parts."
             },
             {
@@ -249,7 +249,7 @@
           "subcategories": [
             {
               "name": "Pine Wood Box",
-              "image": "https://img.freepik.com/free-photo/waffle-sticks-glass-jar-inside-wooden-tray_114579-19163.jpg?t=st=1774681447~exp=1774685047~hmac=64ea690e0ad55a85d07b86332e26cf5b95c62aa26b3dcf3c22a1cb122339e09a&w=1060",
+              "image": "images/PineWood.webp",
               "description": "Lightweight pine wood boxes ideal for export packaging with heat treatment certification for international transit."
             },
             {
