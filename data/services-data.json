@@ -132,34 +132,34 @@
           "subcategories": [
             {
               "name": "Hand Stretch Film",
-              "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Hand_Stretch_Film.webp",
               "description": "Manual-grade stretch film rolls for hand-applied pallet wrapping and bundling in warehouses and loading docks."
             },
             {
               "name": "Machine Stretch Film",
-              "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Machine_Stretch_Film.webp",
               "description": "High-performance machine-grade stretch film compatible with automated and semi-automatic pallet wrappers."
             },
             {
               "name": "Pre-stretched Film",
-              "image": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Pre-stretched_Film.webp",
               "description": "Pre-stretched film requiring minimal force to apply, reducing operator fatigue and improving wrapping consistency."
             }
           ],
           "endProducts": [
             {
               "name": "Pallet Wrapping",
-              "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Pallet_Wrapping.webp",
               "description": "Complete pallet wrapping service using stretch film for load unitization and transit protection."
             },
             {
               "name": "Carton Bundling",
-              "image": "https://img.freepik.com/free-photo/small-business-owner-packing-product-parcel-boxes-delivery_53876-146800.jpg?t=st=1774681223~exp=1774684823~hmac=c9a6c48e953c97e3229563ae65ddd058c8634e2d4766d294203dddeb73b1ea44&w=1060",
+              "image": "images/SubCatImages/Carton_Bundling.webp",
               "description": "Stretch film bundling for grouping multiple cartons and boxes together for efficient handling and shipping."
             },
             {
               "name": "Load Stabilization Packaging",
-              "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Load_Stabilization_Packaging.webp",
               "description": "Stretch wrapping solutions designed to prevent load shifting and product damage during road and rail transit."
             }
           ]
@@ -187,44 +187,44 @@
             },
             {
               "name": "VCI Papers",
-              "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/VCI_Papers.webp",
               "description": "VCI-treated kraft papers for interleaving, wrapping, and void-filling in metal component packaging."
             },
             {
               "name": "VCI Bags",
-              "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/VCI_Bags.webp",
               "description": "Ready-to-use VCI poly bags in standard and custom sizes for quick packaging of small to medium metal parts."
             }
           ],
           "endProducts": [
             {
               "name": "Moisture-Free Packing",
-              "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Moisture-Free_Packing.webp",
               "description": "Vacuum-sealed moisture-free packaging ensuring zero condensation damage during ocean freight and cold storage."
             },
             {
               "name": "Export Vacuum Packaging",
-              "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Export_Vacuum_Packaging.webp",
               "description": "International-standard vacuum packaging with desiccant and humidity indicators for export machinery shipments."
             },
             {
               "name": "Corrosion Prevention Packing",
-              "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Corrosion_Prevention_Packing.webp",
               "description": "VCI-enhanced vacuum packing creating an oxygen-free environment for long-term metal part preservation."
             },
              {
               "name": "Anti-Corrosion Packing",
-              "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Anti-Corrosion_Packing.webp",
               "description": "Complete anti-corrosion packaging solutions combining VCI films, papers, and desiccants for maximum rust protection."
             },
             {
               "name": "Metal Component Protection",
-              "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Metal_Component_Protection.webp",
               "description": "Specialized VCI packaging for automotive parts, bearings, fasteners, and precision-machined metal components."
             },
             {
               "name": "Long-Term Storage Packaging",
-              "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?q=80&w=800&auto=format&fit=crop",
+              "image": "images/SubCatImages/Long-Term_Storage_Packaging.webp",
               "description": "VCI barrier packaging designed for 2-5 year corrosion-free storage of spare parts and maintenance inventory."
             }
           ]
