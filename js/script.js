@@ -86,8 +86,8 @@ TP-13, Chhani Jakatnaka</pre>
                 </li>
               </ul>
               <div class="social-icons mt-3">
-                <a target="_blank" class="facebook" href="https://www.facebook.com/">
-                  <span class="iconify" data-icon="ri:facebook-fill"></span>
+                <a target="_blank" class="facebook" href="https://www.linkedin.com/company/hk-engimech/">
+                  <span class="iconify" data-icon="ri:linkedin-fill"></span> 
                 </a>
                 <a target="_blank" class="instagram" href="https://www.instagram.com/">
                   <span class="iconify" data-icon="dashicons:instagram"></span>
