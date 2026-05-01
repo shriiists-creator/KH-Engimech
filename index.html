@@ -1090,16 +1090,7 @@
                 window.open(url, '_blank');
             }
 
-            // Quick Order Buttons
-            const quickButtons = document.querySelectorAll('.btn-quick-order');
-            quickButtons.forEach(button => {
-                button.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const itemName = this.getAttribute('data-item');
-                    const text = `Hi HK Engimech, I am interested in ordering: *${itemName}*. Could you please provide details and pricing?`;
-                    openWhatsApp(text);
-                });
-            });
+            // Quick Order Buttons logic moved to central script.js modal
 
             // Main Contact Form
             const form = document.getElementById('whatsappForm');
@@ -1123,6 +1114,17 @@
                         `📞 *Contact:* ${phone}\n` +
                         `📦 *Product/Service:* ${serviceType}\n` +
                         `📝 *Details:* ${details}`;
+
+                    if (typeof window.submitToGoogleSheet === "function") {
+                        window.submitToGoogleSheet({
+                            formType: "Contact Us",
+                            name: name,
+                            mobile: phone,
+                            service: serviceType,
+                            requirements: details,
+                            source: "Home Page Contact Form"
+                        });
+                    }
 
                     openWhatsApp(text);
 

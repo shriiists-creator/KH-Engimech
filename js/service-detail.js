@@ -77,7 +77,7 @@
       const uniqueId = "wa-dynamic-" + Math.random().toString(36).substr(2, 9);
 
       enquiryHtml = `
-        <a id="${uniqueId}" href="${waUrl}" target="_blank" rel="noopener" class="svc-enquiry-btn set-url-target">
+        <a id="${uniqueId}" href="${waUrl}" target="_blank" rel="noopener" class="svc-enquiry-btn set-url-target" data-main-service="${serviceName || '-'}" data-sub-product="${subServiceName || '-'}" data-main-product="${item.name || '-'}">
           <span class="iconify me-2" data-icon="logos:whatsapp-icon"></span>
           Enquiry Now
         </a>

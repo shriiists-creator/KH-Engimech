@@ -414,25 +414,7 @@
       updateWhatsAppUrl(); // Run once on load
       window.addEventListener('resize', debounce(updateWhatsAppUrl, 250)); // Run on resize, debounced by 250ms
 
-      // 4. Handle Quick Order Button Clicks
-      const quickButtons = document.querySelectorAll('.btn-quick-order');
-      quickButtons.forEach(button => {
-        button.addEventListener('click', function (e) {
-          e.preventDefault(); // Prevent default link behavior
-
-          // Extract the product name from the data-item attribute
-          const itemName = this.getAttribute('data-item');
-
-          // Create the pre-filled message
-          const text = `Hi HK Engimech, I am interested in ordering/enquiring about: *${itemName}*. Could you please provide more details and pricing?`;
-
-          // Construct the final URL using the pre-calculated base URL
-          const url = `${whatsappBaseUrl}?phone=${companyPhone}&text=${encodeURIComponent(text)}`;
-
-          // Open WhatsApp in a new tab/window
-          window.open(url, '_blank');
-        });
-      });
+      // 4. Handle Quick Order Button Clicks logic moved to central script.js modal
     });
   </script>
 

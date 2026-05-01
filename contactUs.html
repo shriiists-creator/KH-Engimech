@@ -459,6 +459,17 @@
             `📝 *Requirements:*\n ` + `${message}\n` +
             `━━━━━━━━━━━━━━━━━━━━`;
 
+          if (typeof window.submitToGoogleSheet === "function") {
+              window.submitToGoogleSheet({
+                  formType: "Contact Us",
+                  name: name,
+                  mobile: phone,
+                  service: service,
+                  requirements: message,
+                  source: "Contact Us Page Form"
+              });
+          }
+
           openWhatsApp(text);
 
           form.reset();
